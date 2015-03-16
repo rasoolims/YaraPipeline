@@ -1,7 +1,7 @@
 # Yara Pipeline
 A full pipleline for [Yara Parser](https://github.com/yahoo/YaraParser)
 
-# Commandline usage
+# Command line usage
 java -jar jar/YaraPipeline.jar -input [input file] -output [output file] -parse_model [parse model file] -pos_model [pos model] -tokenizer_model [tokenizer model] -sentence_model [sentence detector model]
 Optional: -nt [number of threads]
 Argument order is not important!
